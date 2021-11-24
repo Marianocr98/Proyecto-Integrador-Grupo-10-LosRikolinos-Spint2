@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "proyecto-integrador-grupo-10-losrikolinos-spint2",
+  "description": "Presentable del link al tablero de trabajo del Sprint2 : https://trello.com/b/aPVem5zz/sprint-2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos-Spint2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos-Spint2/issues"
+  },
+  "homepage": "https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos-Spint2#readme"
+}

@@ -1,1 +1,1 @@
-.
+ Presentable del link al tablero de trabajo del Sprint2 : https://trello.com/b/aPVem5zz/sprint-2
