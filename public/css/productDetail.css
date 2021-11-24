@@ -1,5 +1,5 @@
 .container-productDetail {
-    border: 1px solid white;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,7 +11,8 @@
     max-width: 350px;
     height: 323px;
     margin: 0 5px;
-    border: 1px solid white;
+    padding-bottom: 10px;
+   
 }
 
 .container-img img {
@@ -21,18 +22,19 @@
 }
 
 .container-description {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     max-width: 350px;
     max-height: 323px;
+    position: relative;
 }
 
 .container-description h2 {
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
-    margin: 5px;
+    margin: 10px 0px;
+    color: rgb(255, 0, 0);
 }
 
 .detailProduct {
@@ -43,13 +45,18 @@
 
 .description {
     font-size: 23px;
-    margin: 0 5px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.description p{
+    font-size: 20px;
 }
 
 .container-precio {
-    border: 1px solid white;
+    
     display: flex;
-    width: 200px;
+    width: 250px;
     height: 30px;
     margin: 20px auto;
     justify-content: space-between;
@@ -57,15 +64,17 @@
 
 .container-precio p{
     font-size: 24px;
+    color: rgb(255, 0, 0);
 }
 
 .container-sumador_addCart {
-    border: 1px solid white;
+    
     display: flex;
     justify-content: space-around;
 }
 
 .container-sumador {
+    
     border: 1px solid white;
     width: 100px;
     height: 30px;
@@ -80,19 +89,30 @@
     font-size: 20px;
     margin: 0 8px;
     background-color: inherit;
-    color: white;
     border: none;
+    cursor: pointer;
 }
 
-.container-addCart {
-    border: 1px solid white;
+
+.container-addCart  {
+    background-color:black ;
+}
+
+
+.container-addCart button {
+    color: white;
+    background-color: black;
     border-radius: 10px;
-    height: 30px;
+    border: 1px solid;
+    font-size: 20px;
+    padding: 2px;
+    cursor: pointer;
 }
 
-.container-addCart p {
-    font-size: 20px;
+.container-addCart button:hover{
+    color: rgb(255, 51, 0);
 }
+
 
 .container-h2 {
     /* border: 1px solid white; */
@@ -117,10 +137,22 @@
         max-width: 1200px;
     }
     .container-img {
-        width: 300px;
+        width: 100%;
         margin: 0 5px;
-        border: 1px solid white;
+        
     }
+
+    .container-sumador button {
+        background-color: inherit;
+        font-size: 18px;
+        border: none;
+        color: white;
+    }
+    
+    .container-sumador button:hover {
+        color: #FF0000;
+    }
+
     .container-img img {
         max-width: 100%;
         border-radius: 50%;
@@ -134,10 +166,11 @@
         height: 323px;
     }
     .container-precio{
-        width: 180px;
+        width: 280px;
     }
     .container-precio p {
-        font-size: 25px;
+        font-size: 30px;
+        
     }
     .container-sumador{
         font-size: 25px;

@@ -101,16 +101,16 @@ form select {
     0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
-.container-barrita button {
-    background-color: inherit;
-    font-size: 18px;
-    border: none;
-    color: white;
-}
+    .container-barrita button {
+        background-color: inherit;
+        font-size: 18px;
+        border: none;
+        color: white;
+    }
 
-.container-barrita button:hover {
-    color: #FF0000;
-}
+    .container-barrita button:hover {
+        color: #FF0000;
+    }
 
 hr{
     width: 50%;
