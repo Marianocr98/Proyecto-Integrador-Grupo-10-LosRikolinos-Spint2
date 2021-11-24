@@ -6,7 +6,6 @@
   "description": "Presentable del link al tablero de trabajo del Sprint2 : https://trello.com/b/aPVem5zz/sprint-2",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
