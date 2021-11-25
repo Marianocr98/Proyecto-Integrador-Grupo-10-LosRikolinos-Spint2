@@ -65,7 +65,7 @@ form select {
 }
 
 .container-img, .container-barrita {
-    max-width: 250px;
+    width: 210px;
 }
 
 .container-img{
@@ -135,7 +135,7 @@ hr{
         margin: 25px;
     }
     .container-img, .container-barrita {
-        max-width: 100%;
+        width: 360px;
     }
     .container-img {
         height: 220px;
