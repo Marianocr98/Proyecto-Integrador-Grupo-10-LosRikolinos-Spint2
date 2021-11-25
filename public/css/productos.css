@@ -26,6 +26,7 @@ form select {
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
     0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    cursor: pointer;
 }
 
 
@@ -106,6 +107,7 @@ form select {
         font-size: 18px;
         border: none;
         color: white;
+        cursor: pointer;
     }
 
     .container-barrita button:hover {
