@@ -232,8 +232,10 @@ animation: carrucel 14s infinite alternate linear;
     padding: 10px;
     margin-top: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 30px;
+    font-style: italic;
+    
 }
 /*FIN DE SECCION DE NOSOTROS*/
 

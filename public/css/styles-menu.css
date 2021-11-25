@@ -31,6 +31,7 @@ section article a {
     display:flex;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
    
 }
 
@@ -91,8 +92,8 @@ section article a {
     
     .contenedor-img img{
         width: 100%;
-        height: 200px;
         border-radius: 50%;
+        margin: 4px;
     }
  
 

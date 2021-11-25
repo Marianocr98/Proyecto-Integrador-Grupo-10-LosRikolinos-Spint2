@@ -26,6 +26,16 @@
         padding-right: 30px;
         font-size: 30px;
     }
-
     
+    .productos h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    .container-title h2  {
+        
+        font-size: 45px;
+    }
 }    
