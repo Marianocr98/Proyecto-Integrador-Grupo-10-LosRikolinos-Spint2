@@ -86,7 +86,7 @@ main {
 }
 
 .buton input:hover{
-    background-color: rgb(148, 15, 15);
+    background-color: #666;
     color: rgb(0, 0, 0);
 }
 
@@ -103,11 +103,10 @@ main {
     font-size: 20px;
 }
 
-hr{
-    border-color: rgb(255, 255, 255);
-    width: 50%;
+.hr{
+    border-color: beige;
     margin: 40px auto 30px;
-    max-width: 450px;
+    max-width: 75%;
 }
 
 p{

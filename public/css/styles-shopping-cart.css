@@ -7,6 +7,11 @@
 div.top-header{
     margin-bottom: 50px;
 }
+
+article{
+    display: flex;
+    flex-direction: column;
+}
 .h2-carrito{
     width: 200px;
     border-radius: 20px;
@@ -34,12 +39,17 @@ h3{
     text-align: center;
 }
 button.boton-comprar{
+    background-color: black;
+    color: white;
     margin: 20px;
-    background-color: #fff;
     width: 100px;
-    border: 1px #fff solid;
+    border: 1px black solid;
     border-radius: 20px;
     padding: 10px;
+}
+button.boton-comprar:hover{
+    background-color: white;
+    color: black;
 }
 .main section article{
     display:flex;
@@ -48,7 +58,7 @@ button.boton-comprar{
     margin: 10px 0 10px 0;
 }
 main section article div.product-truck {
-    background: linear-gradient(90deg, rgba(9,9,7,1) 0%, rgba(203,28,28,1) 51%, rgba(9,8,7,1) 100%);
+    box-shadow: 0 4px 8px 0 rgb(220 0 0 / 20%), 0 6px 20px 0 rgb(255 255 255 / 19%);
     margin: 20px 20px ;
     display:flex;
     flex-direction: row;
@@ -56,6 +66,37 @@ main section article div.product-truck {
     text-align: center;
     align-items: center;
 }
+main section article div.product-truck:hover{
+    background: linear-gradient(to right, rgba(9,9,7,1),rgba(203,28,28,1),rgba(9,9,7,1));
+    color: rgb(0, 0, 0);
+}
+
+.container-barrita {
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+    .container-barrita button {
+        background-color: inherit;
+        font-size: 18px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .container-barrita button:hover {
+        color: #FF0000;
+    }
+
+    p{
+        color:white
+    }
 
 .contenedor-borrar{
     position: relative;
@@ -88,9 +129,17 @@ main section article div.product-truck {
     border-radius: 60px;
 }
 
+
 section article a {
     color: #fff;
     text-decoration: none;
+}
+h4{
+    color: white;
+}
+
+h5{
+    font-size: 17px;
 }
 @media (min-width: 480px) {
     main section article div.product-truck{
