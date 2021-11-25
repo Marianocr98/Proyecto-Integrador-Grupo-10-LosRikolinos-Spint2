@@ -1,213 +1,87 @@
-*{
-    margin:0;
-    padding: 0;
-    
-    
-}
-div.top-header{
-    margin-bottom: 50px;
+main {
+    margin: 5px;
 }
 
-article{
+.h2-carrito {
+    border: 1px solid white;
+    margin: 20px auto;
+}
+
+.h2-carrito h2 {
+    text-align: center;
+}
+/* ----------- */
+
+.container-paragraph{
+    display: flex;
+    width: 100%;
+    margin: 15px auto;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+}
+
+.container-paragraph div {
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.container-paragraph div p {
+    margin: 0 5px;
+    font-size: 4vw;
+}
+
+/* ------------ */
+.container-articleCart {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-img {
     display: flex;
     flex-direction: column;
-}
-.h2-carrito{
-    width: 200px;
-    border-radius: 20px;
-    background: linear-gradient(90deg, rgba(9,9,7,1) 0%, rgba(203,28,28,1) 51%, rgba(9,8,7,1) 100%);
-    margin: auto;
-}
-h2{
+    width: 125px;
     text-align: center;
-    color : #fff;
-    margin:auto;
-}
-h3{
-    text-align: center;
-    color: rgb(238, 238, 238);
+    margin-right: 5px;
 }
 
-
-.h3-precio-total{
-    width: 200px;
-    border-radius: 500px;
-    background: linear-gradient(90deg, rgba(9,9,7,1) 0%, rgba(203,28,28,1) 51%, rgba(9,8,7,1) 100%);
-    margin: auto;
-}
-.precio-boton{
-    text-align: center;
-}
-button.boton-comprar{
-    background-color: black;
-    color: white;
-    margin: 20px;
-    width: 100px;
-    border: 1px black solid;
-    border-radius: 20px;
-    padding: 10px;
+.container-img img {
+    width: 100%;
 }
 
-.main section article{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0 10px 0;
-}
-main section article div.product-truck {
-    box-shadow: 0 4px 8px 0 rgb(220 0 0 / 20%), 0 6px 20px 0 rgb(255 255 255 / 19%);
-    margin: 20px 20px ;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-main section article div.product-truck:hover{
-    background: linear-gradient(to right, rgba(9,9,7,1),rgba(203,28,28,1),rgba(9,9,7,1));
-    color: rgb(0, 0, 0);
-}
-
-  .container-barrita button:hover {
-        color: #FF0000;
-    }
-
-    
-.container-barrita {
-    background-color: black;
-    margin-top: 10px;
+.descriptiones-truck {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: center;
-    height: 25px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
-    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    width: 60%;
 }
 
-    .container-barrita button {
-        background-color: inherit;
-        font-size: 18px;
-        border: none;
-        color: white;
-        cursor: pointer;
-    }
-
-    
-
-.contenedor-borrar{
-    position: relative;
-    margin-left: 20%;
-
-}
-.borrar{
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    border:#fff 1px solid;
-    position: absolute;
-    bottom: 40px;
-    right: 0;
-}
-.borrar i{
-    position: relative;
-    left: 0.5px;
-    top: 0.5px;
+.descriptiones-truck div {
+    margin: 0 5px;
 }
 
-.product-truck{
-    width: 90%;
-}
-
-.img-product-truck img{
-    margin: 10px 0;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-}
-
-
-section article a {
-    color: #fff;
-    text-decoration: none;
-}
-h4{
-    color: white;
-}
-
-h5{
-    font-size: 17px;
-}
-@media (min-width: 480px) {
-    main section article div.product-truck{
-        margin: 40px auto;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        width: 400px;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-    .descriptiones-truck{
-        position: relative;
-        left: 30px;
-        bottom: 30px;
-    }
-    .unidades{
-        position: relative;
-        right:30px;
-        bottom: -20px;
-    }
-}
-@media (min-width: 769px) {
-    main section article div.product-truck{
-
+.descriptiones-truck div input {
     text-align: center;
-    margin: 30px auto;
-    width: 600px;
-    justify-content: flex-start;
-    }
+    margin: 0 10px;
 }
 
-@media (min-width: 1280px) {
-    main section article div.product-truck{
-        position:relative;
-        right:-50px;
-        justify-content:flex-start;
-        width:60%;
-    }
-    .h2-carrito{
-        width:200px;
-        position:relative;
-        left:40px;
-    }
-    h2{
-        font-size:40px ; 
-    }
-    h4.product{
-        font-size:30px;
-    }
-    .h3-precio-total{
-        width:300px;
-        position:relative;
-        left:40px;
-    }
-    h3{
-        font-size:25px;
-    }
-    button.boton-comprar{
-        margin:30px 0;
-        position:relative;
-        left:40px
-     }
+.descriptiones-truck div button {
+    display: flex;
+}
 
-   
-    button.boton-comprar:hover{
-        background-color: white;
-        color: black;
-    }
-
-    p{
-        color:white
-    }
+.container-equis {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    color: white;
 }
