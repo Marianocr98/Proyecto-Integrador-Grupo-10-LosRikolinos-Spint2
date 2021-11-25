@@ -47,10 +47,7 @@ button.boton-comprar{
     border-radius: 20px;
     padding: 10px;
 }
-button.boton-comprar:hover{
-    background-color: white;
-    color: black;
-}
+
 .main section article{
     display:flex;
     flex-direction: column;
@@ -71,6 +68,11 @@ main section article div.product-truck:hover{
     color: rgb(0, 0, 0);
 }
 
+  .container-barrita button:hover {
+        color: #FF0000;
+    }
+
+    
 .container-barrita {
     background-color: black;
     margin-top: 10px;
@@ -90,13 +92,7 @@ main section article div.product-truck:hover{
         cursor: pointer;
     }
 
-    .container-barrita button:hover {
-        color: #FF0000;
-    }
-
-    p{
-        color:white
-    }
+    
 
 .contenedor-borrar{
     position: relative;
@@ -165,7 +161,8 @@ h5{
 }
 @media (min-width: 769px) {
     main section article div.product-truck{
-        text-align: center;
+
+    text-align: center;
     margin: 30px auto;
     width: 600px;
     justify-content: flex-start;
@@ -203,4 +200,14 @@ h5{
         position:relative;
         left:40px
      }
+
+   
+    button.boton-comprar:hover{
+        background-color: white;
+        color: black;
+    }
+
+    p{
+        color:white
+    }
 }
