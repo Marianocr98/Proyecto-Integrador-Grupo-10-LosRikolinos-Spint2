@@ -14,7 +14,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    background: url("/img/Fondo-Pantalla.jpg") no-repeat;
+    background: url("/img/fuegoHeader8.jpg") no-repeat;
     background-size: cover;
     margin-bottom: 30px;
 }
@@ -213,7 +213,7 @@ animation: carrucel 14s infinite alternate linear;
 /*INICIO DEL FOOTER*/
 
 .container-footer {
-    background: url("/img/Fondo-Pantalla.jpg") no-repeat ;
+    background: url("/img/fuegoHeader.jpg") no-repeat;
     background-size: cover; 
     width: 100%;
     padding: 10px;
