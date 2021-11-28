@@ -9,10 +9,13 @@ body {
     color: white;
 }
 
+.top-header{
+    width: 100%;
+}
 /*comienzo el main*/
 
 main {    
-    width: 550px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -93,7 +96,7 @@ main {
 .olvidaste-contra{
 
     text-align: end;
-    width: 90%;
+    width: 250px;
 }
 
 .olvidaste-contra a{
@@ -122,10 +125,27 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 20px;
+    
     margin-top: 15px;
     margin-bottom: 15px;
     color: rgb(150, 22, 22);
     text-decoration: none;
+    
 }
 
+@media (min-width: 769px) {
+
+    main{
+        width: 400px;
+    }
+
+    
+    .olvidaste-contra{
+        width: 380px;    
+        text-align: end;
+    }
+
+    .link{
+        font-size: 20px;
+    }
+}

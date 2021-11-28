@@ -31,11 +31,5 @@
 
 ### DEJAR DE HACER:
 
-<<<<<<< HEAD
 Sprint 2 - Entregables : 
-=======
- Depender de alguien para hacer algo.
- Distendernos y hacer cambios sin consultar.
-   
->>>>>>> a4cc419769d998aea071f1310ccd516efd003afc
 
